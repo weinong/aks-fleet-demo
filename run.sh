@@ -100,7 +100,7 @@ helm repo update
 
 helm install -n fluent-bit --create-namespace fluent-bit fluent/fluent-bit
 
-sleep 30
+sleep 180
 
 kubectl describe clusterresourceplacement crp
 
